@@ -1,0 +1,18 @@
+nav:
+  - title: "Home"
+    section: home
+
+  - title: "Zalety"
+    section: pros
+
+  - title: "Jak to działa"
+    section: working
+
+  - title: "Płatność"
+    section: payment
+
+  - title: "Zespół"
+    section: team
+
+  - title: "Kontakt"
+    section: contact
