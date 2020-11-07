@@ -3,11 +3,12 @@ header:
     text: Miło nam Cię poznać
     button: Dodaj rozszerzenie
     buttonlink: "#services"
+    section: header
 
-services:
+pros:
     title: "Zalety"
     text: "Co wyróżnia nasz produkt?"
-    section: zalety
+    section: pros
     list:
       - title: "Funkcjonalność"
         desc: "Optymalizacja tras dostaw jedzenia usprawnia Państwa biznes generując mniejsze koszta i efektywniej zarządzająć łańcuchem dostaw."
@@ -20,16 +21,16 @@ services:
         icon: far fa-hand-pointer
 
 portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: Płatność
+    text: Poniżej przedstawiamy Ci dostępne pakiety subskrypcji.
     section: portfolio
     closebutton: "Close Project"
     
 
-timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
-    section: timeline
+working:
+    title: Jak działa rozszerzenie?
+    text: Objaśnimy Ci krok po kroku jak obsługiwać nasze rozszerzenie
+    section: working
     # left is the default
     #start_align: "left"
     events:

@@ -1,6 +1,6 @@
 nav:
   - title: "Home"
-    section: home
+    section: page-top
 
   - title: "Zalety"
     section: pros
@@ -9,7 +9,7 @@ nav:
     section: working
 
   - title: "Płatność"
-    section: payment
+    section: portfolio
 
   - title: "Zespół"
     section: team
