@@ -16,7 +16,7 @@
 encoding: UTF-8
 title: SmartRange
 logo: 
-  path: "/assets/img/logo/logo.png"
+  path: assets/img/logo/logo.png
   height: 60
 email: 
 author: Bartosz Stempień, Łukasz Flisiak
