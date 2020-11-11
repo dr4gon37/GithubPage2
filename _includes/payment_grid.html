@@ -9,12 +9,14 @@
     </div>
     <div class="row">
 	{% for plan in site.data.sitetext.payment.subscription-plan %}
-      <div class="col-sm-4 payment-item">
+      <div class="col-md-4 col-sm-12 col-12 payment-item col-centered">
         <div class="payment-content rounded">
           <h3 class="subheading">{{ plan.title }}
             <div class="borderSubHeading"></div>
           </h3>
-          <div class="text-muted"><i class="{{ plan.icon }}" style="color:{{ plan.icon-color }}"></i> {{ plan.text }}</div>
+          {%for text in plan.subtext %}
+            <div class="text-muted"><i class="{{ plan.icon }}" style="color: {{ plan.icon-color }}"></i> {{ text.data }}</div>
+          {% endfor %}
           <div class="col text-center">
             <a class="btn btn-primary btn-block text-uppercase js-scroll-trigger" href="{{ plan.buttonlink }}">{{ plan.button }}</a>
           </div>

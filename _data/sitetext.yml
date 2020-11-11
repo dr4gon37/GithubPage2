@@ -1,7 +1,7 @@
 header:
     title: Witamy Cię na naszej stronie!
     text: Miło nam Cię poznać
-    button: Dodaj rozszerzenie
+    button: Dodaj do przeglądarki
     buttonlink: "#services"
     section: header
 
@@ -11,34 +11,40 @@ pros:
     section: pros
     list:
       - title: "Funkcjonalność"
-        desc: "Optymalizacja tras dostaw jedzenia usprawnia Państwa biznes generując mniejsze koszta i efektywniej zarządzająć łańcuchem dostaw."
+        desc: "Optymalizacja tras usprawnia podróż jednocześnie zaoszczędzając Państwa czas."
         icon: fas fa-tasks #find more at https://fontawesome.com/icons
       - title: "Niska cena"
-        desc: "Niski miesięczny koszt nie obciąży Państwa budżetu. Wykupienie subskrypcji na dłuższy okres zapewnia dodatkowe zniżki jeszcze bardziej minimalizując koszta."
+        desc: "Atrakcyjne plany subskrypcji na dłuższy okres zapewniają dodatkowe zniżki."
         icon: fas fa-dollar-sign       
       - title: "Prostota"
-        desc: "Nasz produkt jest prosty i intuicyjny w obsłudze. Proces instalacji jest krótki, a z produktu można korzystać natychmiast!."
+        desc: "Nasz produkt jest prosty i intuicyjny w obsłudze. Proces instalacji jest krótki, a z produktu można korzystać natychmiast!"
         icon: far fa-hand-pointer
 
 payment:
     title: Płatność
-    text: Poniżej przedstawiamy Ci dostępne pakiety subskrypcji.
+    text: Poniżej przedstawiamy Ci dostępne plany subskrypcji.
     section: payment
     subscription-plan:
       - title: Miesięczny
-        text: Miesiąc suba
+        subtext: 
+        - data: 45 zł za miesiąc
+        - data: 0% zniżki
         icon: fas fa-check
         icon-color: brown
         button: Rozpocznij 
         buttonlink: 
       - title: Półroczny
-        text: Półroczny sub
+        subtext: 
+        - data: 37 zł za miesiąc
+        - data: 18% zniżki
         icon: fas fa-check
         icon-color: silver
         button: Rozpocznij
         buttonlink: 
       - title: Roczny
-        text: Roczny sub
+        subtext: 
+        - data: 30 zł za miesiąc 
+        - data: 34% zniżki
         icon: fas fa-check
         icon-color: gold
         button: Rozpocznij
@@ -54,25 +60,25 @@ working:
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Wprowadzenie"
+        desc: "Nasz produkt zapewnia nawet do 50% szybsze dotarcie do wyznaczonych celów. Uwzględnia natężenie ruchu na drogach w efekcie czego zapewni Ci najbardziej efektywną trasę."
+        image: assets/img/logo/logo.png
         alt: 
-      - title: "An Agency is Born"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Zapisz lokalizacje"
+        desc: "Naciśnięcie przycisku zapisuje punkt początkowy trasy, dzięki czemu będzie on dodawany automatycznie w kolejnych trasach jednocześnie zaoszczędzając Twój czas."
         image: assets/img/timeline/2.jpg
         alt: 
-      - title: "Jekyll Theme is created"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Optymalizuj trasę"
+        desc: "Przycisk optymalizuje wpisaną przez użytkownika trasę w najbardziej korzystym wariancie. Dodając na końcu zapisaną wcześniej początkową lokalizację."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "Wygeneruj kod QR"
+        desc: "Przycisk generuje indywidualny kod QR przypisany do stworzonej trasy. Wystarczy zeskanować kod telefone a cała trasa automatycznie się wyświetli."
         image: assets/img/timeline/4.jpg
         alt: 
         # you can enforce the aligment
         align: right
-    end: "Produkt <br> jest <br> gotowy"
+    end: "Wyrusz <br> w <br> trasę!"
 
 about:
     title: "About Us"
@@ -100,27 +106,25 @@ clients:
 team:
     title: "Zespół"
     text: ""
-    subtext: Młody i ambitny zespół pragnący pomóc małym biznesom w czasach pandemii COVID-19. Stworzyliśmy proste i intuicyjne rozszerzenie do przeglądarki optymalizujące trasy dostaw.
+    subtext: Młody i ambitny zespół pragnący pomóc przedsiębiorcom w czasach pandemii COVID-19. Stworzyliśmy prosty i intuicyjny optymalizujące trasy.
     section: team
     people:
       - name: "Łukasz Flisiak"
         role: "Założyciel"
-        image: assets/img/team/500x500.jpg
-        quote: "Zabawny mądry gej"
+        image: assets/img/team/lukasz.jpg
+        quote: "Przedsiębiorca z wieloma pomysłami"
         social:
           - url: https://twitter.com
-            icon: fab fa-twitter
+            icon: fab fa-instagram
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Bartosz Stempień"
         role: "Developer"
-        image: assets/img/team/2.jpg
-        quote: "Rucham rucham jak porucham"
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
+        image: assets/img/team/bartek.jpg
+        quote: ""
+        social:          
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
@@ -130,23 +134,17 @@ contact:
     title: Pozostańmy w kontakcie
     text: "Skorzystaj z poniższych danych kontaktowych bądź formularza: "
     details: 
-      - text: " smartrange.support@gmail.com"
+      - text: "smartrange.kontakt@gmail.com"
         icon: "fas fa-at"
-      - text: " 000 000 000"
+      - text: " 500 037 218 / 514 514 866"
         icon: fas fa-phone"
     section: contact
     
 footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"  
+    social: 
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
 
