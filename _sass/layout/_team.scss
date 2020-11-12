@@ -37,10 +37,10 @@
   
   /* Style the back side */
   .flip-card-back {
-    background-color: white;
-    color: black;
+    background-color: $primary;
+    color: white;
     transform: rotateY(180deg);
-    border: 7px solid fade-out($black, 0.9);
+    border: 7px solid fade-out($color: $black, $amount: 0.9);
 
     p {
       text-align: center;
@@ -55,7 +55,7 @@
   img {
     width: 225px;
     height: 225px;
-    border: 7px solid fade-out($black, 0.9);
+    border: 7px solid $gray-400;
   }
   h4 {
     margin-top: 25px;

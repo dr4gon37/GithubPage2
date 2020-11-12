@@ -20,10 +20,10 @@ pros:
         desc: "Nasz produkt jest prosty i intuicyjny w obsłudze. Proces instalacji jest krótki, a z produktu można korzystać natychmiast!"
         icon: far fa-hand-pointer
 
-payment:
-    title: Płatność
-    text: Poniżej przedstawiamy Ci dostępne plany subskrypcji.
-    section: payment
+price-list:
+    title: Cennik
+    text: "Poniżej przedstawiamy Ci dostępne plany subskrypcji:"
+    section: price-list
     subscription-plan:
       - title: Miesięczny
         subtext: 
@@ -54,27 +54,27 @@ payment:
     
 
 working:
-    title: Jak działa rozszerzenie?
-    text: Objaśnimy Ci krok po kroku jak obsługiwać nasze rozszerzenie
+    title: Jak to działa?
+    text: Objaśnimy Ci krok po kroku jak obsługiwać nasze narzędzie
     section: working
     # left is the default
     #start_align: "left"
     events:
       - title: "Wprowadzenie"
-        desc: "Nasz produkt zapewnia nawet do 50% szybsze dotarcie do wyznaczonych celów. Uwzględnia natężenie ruchu na drogach w efekcie czego zapewni Ci najbardziej efektywną trasę."
+        desc: "Nasz produkt zapewnia nawet do 47% szybsze dotarcie do wyznaczonych celów. Uwzględnia natężenie ruchu na drogach w efekcie czego zapewni Ci najbardziej efektywną trasę."
         image: assets/img/logo/logo.png
         alt: 
       - title: "Zapisz lokalizacje"
         desc: "Naciśnięcie przycisku zapisuje punkt początkowy trasy, dzięki czemu będzie on dodawany automatycznie w kolejnych trasach jednocześnie zaoszczędzając Twój czas."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/localization.png
         alt: 
       - title: "Optymalizuj trasę"
         desc: "Przycisk optymalizuje wpisaną przez użytkownika trasę w najbardziej korzystym wariancie. Dodając na końcu zapisaną wcześniej początkową lokalizację."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/optimalization.png
         alt: image alt text
       - title: "Wygeneruj kod QR"
         desc: "Przycisk generuje indywidualny kod QR przypisany do stworzonej trasy. Wystarczy zeskanować kod telefone a cała trasa automatycznie się wyświetli."
-        image: assets/img/timeline/4.jpg
+        image: assets/img/timeline/qr.png
         alt: 
         # you can enforce the aligment
         align: right
@@ -106,7 +106,7 @@ clients:
 team:
     title: "Zespół"
     text: ""
-    subtext: Młody i ambitny zespół pragnący pomóc przedsiębiorcom w czasach pandemii COVID-19. Stworzyliśmy prosty i intuicyjny optymalizujące trasy.
+    subtext: Młody i ambitny zespół pragnący pomóc przedsiębiorcom w czasach pandemii COVID-19. Stworzyliśmy proste i intuicyjne narzędzie optymalizujące trasy.
     section: team
     people:
       - name: "Łukasz Flisiak"
@@ -114,20 +114,20 @@ team:
         image: assets/img/team/lukasz.jpg
         quote: "Przedsiębiorca z wieloma pomysłami"
         social:
-          - url: https://twitter.com
+          - url: https://www.instagram.com/_sozume_/
             icon: fab fa-instagram
-          - url: https://facebook.com
+          - url: https://www.facebook.com/lukasz.flisiak.sozume
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Bartosz Stempień"
         role: "Developer"
         image: assets/img/team/bartek.jpg
-        quote: ""
+        quote: "Developer poszukujący wyzwań"
         social:          
-          - url: https://facebook.com
+          - url: https://www.facebook.com/bartoliniBartlomiejtrzeci
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/bartosz-stempie%C5%84-73a928190/
             icon: fab fa-linkedin-in
           
 contact:

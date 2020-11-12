@@ -1,16 +1,16 @@
-<!-- payment Grid -->
-<section class="page-section" id="{{ site.data.sitetext.payment.section | default: "payment" }}">
+<!-- price-list Grid -->
+<section class="page-section" id="{{ site.data.sitetext.price-list.section | default: "price-list" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.payment.title | markdownify | default: "payment" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.payment.text | markdownify }}</h3>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.price-list.title | markdownify | default: "price-list" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.price-list.text | markdownify }}</h3>
       </div>
     </div>
     <div class="row">
-	{% for plan in site.data.sitetext.payment.subscription-plan %}
-      <div class="col-md-4 col-sm-12 col-12 payment-item col-centered">
-        <div class="payment-content rounded">
+	{% for plan in site.data.sitetext.price-list.subscription-plan %}
+      <div class="col-md-4 col-sm-12 col-12 price-list-item col-centered">
+        <div class="price-list-content rounded">
           <h3 class="subheading">{{ plan.title }}
             <div class="borderSubHeading"></div>
           </h3>

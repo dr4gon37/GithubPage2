@@ -7,11 +7,11 @@
   margin-bottom: 15px;
 }
 
-.payment-item {
+.price-list-item {
   right: 0;
   max-width: 400px;
   max-height: 800px;
-  .payment-content {
+  .price-list-content {
     border: 2.5px solid $gray-200;
     display: block;
     font-size: 14px;
@@ -42,8 +42,8 @@
 }
 
 @media(min-width:480px) {
-  .payment-item  {
-    .payment-content {
+  .price-list-item  {
+    .price-list-content {
       font-size: 16px;
         h3 {
           font-size: 18px;
@@ -53,8 +53,8 @@
 }
 
 @media(min-width:767px) {
-  .payment-item  {
-    .payment-content {
+  .price-list-item  {
+    .price-list-content {
       font-size: 18px;
         .borderSubHeading{
           position: absolute;
@@ -73,8 +73,8 @@
 }
  
 @media(min-width:960px) {
-  .payment-item  {
-    .payment-content {
+  .price-list-item  {
+    .price-list-content {
       font-size: 20px;
         h3 {
           font-size: 25px;
