@@ -1,6 +1,6 @@
 header:
-    title: Witamy Cię na naszej stronie!
-    text: Miło nam Cię poznać
+    title: Miło nam Cię poznać!
+    text: Nigdy więcej nie trać czasu
     button: Dodaj do przeglądarki
     buttonlink: "#services"
     section: header
@@ -11,7 +11,7 @@ pros:
     section: pros
     list:
       - title: "Funkcjonalność"
-        desc: "Optymalizacja tras usprawnia podróż jednocześnie zaoszczędzając Państwa czas."
+        desc: "Optymalizacja tras usprawnia podróż jednocześnie zaoszczędzając czas."
         icon: fas fa-tasks #find more at https://fontawesome.com/icons
       - title: "Niska cena"
         desc: "Atrakcyjne plany subskrypcji na dłuższy okres zapewniają dodatkowe zniżki."
@@ -65,15 +65,15 @@ working:
         image: assets/img/logo/logo.png
         alt: 
       - title: "Zapisz lokalizacje"
-        desc: "Naciśnięcie przycisku zapisuje punkt początkowy trasy, dzięki czemu będzie on dodawany automatycznie w kolejnych trasach jednocześnie zaoszczędzając Twój czas."
+        desc: "Naciśnięcie przycisku zapisuje punkt początkowy trasy. Będzie on dodawany automatycznie w kolejnych trasach, jednocześnie zaoszczędzając Twój czas."
         image: assets/img/timeline/localization.png
         alt: 
       - title: "Optymalizuj trasę"
-        desc: "Przycisk optymalizuje wpisaną przez użytkownika trasę w najbardziej korzystym wariancie. Dodając na końcu zapisaną wcześniej początkową lokalizację."
+        desc: "Przycisk optymalizuje wpisaną przez użytkownika trasę w najbardziej korzystnym wariancie. Dodatkowo dodaje wcześniej zapisaną lokalizację początkową, jako ostatni punkt trasy, zapewniając szybki powrót."
         image: assets/img/timeline/optimalization.png
         alt: image alt text
       - title: "Wygeneruj kod QR"
-        desc: "Przycisk generuje indywidualny kod QR przypisany do stworzonej trasy. Wystarczy zeskanować kod telefone a cała trasa automatycznie się wyświetli."
+        desc: "Przycisk generuje indywidualny kod QR przypisany do stworzonej trasy. Wystarczy zeskanować kod telefonem a cała trasa automatycznie się wyświetli."
         image: assets/img/timeline/qr.png
         alt: 
         # you can enforce the aligment
