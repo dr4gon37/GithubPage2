@@ -28,23 +28,29 @@ price-list:
       - title: Miesięczny
         subtext: 
         - data: 45 zł za miesiąc
-        - data: 0% zniżki
+        - data: Stałe wsparcie techniczne
+        - data: Dostęp do najnowszych aktualizacji
+        - data: 
         icon: fas fa-check
         icon-color: brown
         button: Rozpocznij 
         buttonlink: 
       - title: Półroczny
         subtext: 
-        - data: 37 zł za miesiąc
+        - data: <del>45</del> 37 zł za miesiąc
         - data: 18% zniżki
+        - data: Stałe wsparcie techniczne
+        - data: Dostęp do najnowszych aktualizacji
         icon: fas fa-check
         icon-color: silver
         button: Rozpocznij
         buttonlink: 
       - title: Roczny
         subtext: 
-        - data: 30 zł za miesiąc 
+        - data: <del>45</del> 30 zł za miesiąc 
         - data: 34% zniżki
+        - data: Stałe wsparcie techniczne
+        - data: Dostęp do najnowszych aktualizacji
         icon: fas fa-check
         icon-color: gold
         button: Rozpocznij
@@ -145,7 +151,7 @@ footer:
     social: 
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/smart.range/
         icon: "fab fa-instagram"
 
 

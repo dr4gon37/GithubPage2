@@ -56,11 +56,6 @@
       border: 7px solid $gray-200;
       border-radius: 3%;
       background-color:rgb(248,249,250);
-      h4 {
-        font-size: 10px;
-        line-height: 14px;
-        margin-top: 12px;
-      }
       .centerVertically {
         position: relative;
         top: 50%;
@@ -80,7 +75,7 @@
       border-radius: 100%;
       background-color: $primary;
       h4 {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 14px;
         margin-top: 20px;
       }
@@ -142,11 +137,6 @@
         width: 150px;
         height: 100px;
         margin-left: -75px;
-        h4 {
-          font-size: 13px;
-          line-height: 18px;
-          margin-top: 20px;
-        }
       }
       .working-image-rounded {
         left: 50%;
@@ -154,7 +144,7 @@
         height: 120px;
         margin-left: -60px;
         h4 {
-          font-size: 13px;
+          font-size: 15px;
           line-height: 18px;
           margin-top: 23px;
         }
@@ -178,20 +168,15 @@
         width: 225px;
         height: 150px;
         margin-left: -112.5px;
-        h4 {
-          font-size: 18px;
-          line-height: 26px;
-          margin-top: 30px;
-        }
       }
       .working-image-rounded {
         width: 170px;
         height: 170px;
         margin-left: -85px;
         h4 {
-          font-size: 18px;
+          font-size: 20px;
           line-height: 26px;
-          margin-top: 30px;
+          margin-top: 35px;
         }
       }
       &.working-inverted > .working-panel {
@@ -211,16 +196,14 @@
         width: 300px;
         height: 200px;
         margin-left: -150px;
-        h4 {
-          margin-top: 40px;
-        }
       }
       .working-image-rounded {
         width: 200px;
         height: 200px;
         margin-left: -100px;
         h4 {
-          margin-top: 47px;
+          font-size: 24px;
+          margin-top: 50px;
         }
       }
       &.working-inverted > .working-panel {

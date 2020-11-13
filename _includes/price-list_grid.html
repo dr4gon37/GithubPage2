@@ -15,7 +15,11 @@
             <div class="borderSubHeading"></div>
           </h3>
           {%for text in plan.subtext %}
-            <div class="text-muted"><i class="{{ plan.icon }}" style="color: {{ plan.icon-color }}"></i> {{ text.data }}</div>
+            {% if text.data %}
+              <div class="text-muted"><i class="{{ plan.icon }}" style="color: {{ plan.icon-color }}"></i> {{ text.data }}</div>
+            {% else %}
+              <div class="text-muted" style="visibility: hidden">hi</div>
+            {% endif %}
           {% endfor %}
           <div class="col text-center">
             <a class="btn btn-primary btn-block text-uppercase js-scroll-trigger" href="{{ plan.buttonlink }}">{{ plan.button }}</a>
