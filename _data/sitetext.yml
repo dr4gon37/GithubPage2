@@ -124,7 +124,7 @@ team:
             icon: fab fa-instagram
           - url: https://www.facebook.com/lukasz.flisiak.sozume
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/łukasz-flisiak-71b136200
             icon: fab fa-linkedin-in
       - name: "Bartosz Stempień"
         role: "Developer"
@@ -133,7 +133,7 @@ team:
         social:          
           - url: https://www.facebook.com/bartoliniBartlomiejtrzeci
             icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/bartosz-stempie%C5%84-73a928190/
+          - url: https://www.linkedin.com/in/bartosz-stempie%C5%84-73a928190//
             icon: fab fa-linkedin-in
           
 contact:
@@ -149,7 +149,7 @@ contact:
 footer:
     legal: "Privacy Policy"
     social: 
-      - url: https://facebook.com
+      - url: https://www.facebook.com/Smartrange-113788700543895/
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/smart.range/
         icon: "fab fa-instagram"
